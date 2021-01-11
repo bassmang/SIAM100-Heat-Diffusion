@@ -1,1 +1,4 @@
-asdf
+
+The following problem is taken from the SIAM 100 Digit Challenge (see the corresponding book ”The SIAM 100 Digit Challenge”). We want to investigate parabolic time-dependent problems of the form ut = f (u, t).
+
+Consider a square plate with sides [−1, 1] × [−1, 1]. At time t = 0 we are heating the plate up such that the temperature is u = 5 on one side and u = 0 on the other sides. The temperature evolves according to ut = ∆u. At what time t∗ does the plate reach u = 1 at the center of the plate? You should use finite differences or spectral discretisations, and also try with explicit and implicit time-stepping schemes. How you implement your solution and what techniques you use is up to you. But you should clearly demonstrate by scaling experiments how many reliable digits of the solution you achieve. To twelve digits the wanted solution is t∗ = 0.424011387033.
